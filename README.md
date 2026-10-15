@@ -1,131 +1,68 @@
 # Ola Ride Bookings: SQL Analysis and Power BI Dashboard
 
-A ride-booking analytics portfolio project documenting operational questions around booking outcomes, vehicle types, cancellations, ratings, payment methods, and revenue.
+A ride-booking analytics project exploring booking outcomes, vehicle types, cancellations, ratings, payment methods, and revenue.
 
-![Status](https://img.shields.io/badge/Status-Documented-yellow)
+![SQL](https://img.shields.io/badge/SQL-Analytics-blue) ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811)
 
-## 📌 Table of Contents
+## Contents
+- [Overview](#overview)
+- [Business Questions](#business-questions)
+- [Dataset and Project Files](#dataset-and-project-files)
+- [Analysis Workflow](#analysis-workflow)
+- [Results and Metrics](#results-and-metrics)
+- [Technology Stack](#technology-stack)
+- [Run the Project](#run-the-project)
+- [Limitations and Next Steps](#limitations-and-next-steps)
 
-- [Overview](#-overview)
-- [Problem Statement](#-problem-statement)
-- [Objectives](#-objectives)
-- [Features](#-features)
-- [Dataset](#-dataset)
-- [Tech Stack](#-tech-stack)
-- [Project Workflow](#-project-workflow)
-- [Repository Structure](#-repository-structure)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Results and Insights](#-results-and-insights)
-- [Screenshots](#-screenshots)
-- [Challenges and Solutions](#-challenges-and-solutions)
-- [Limitations](#-limitations)
-- [Future Improvements](#-future-improvements)
-- [What I Learned](#-what-i-learned)
-- [Author](#-author)
-- [License](#-license)
+## Overview
+This project uses SQL concepts and a Power BI report to examine ride-booking operations. The goal is to organize booking and service questions into a repeatable analysis and communicate the results clearly.
 
-## 📖 Overview
+## Business Questions
+- How are bookings distributed by outcome and vehicle type?
+- What patterns appear in cancellations and ratings?
+- How are payment methods and revenue represented?
+- Are reported totals consistent with the underlying data and KPI definitions?
 
-A ride-booking analytics portfolio project documenting operational questions around booking outcomes, vehicle types, cancellations, ratings, payment methods, and revenue.
+## Dataset and Project Files
+The repository contains the Word brief `Database Ola.docx` and Power BI report `ola dashboard.pbix`. A standalone dataset and SQL script were not present in the reviewed file inventory.
 
-## 🎯 Problem Statement
+## Analysis Workflow
+1. Read the project brief and identify the tables, fields, and intended business questions.
+2. Open the PBIX in Power BI Desktop.
+3. Confirm the data connection, refresh status, date range, and model schema.
+4. Review how bookings, completed rides, cancellations, ratings, and revenue are defined.
+5. Validate dashboard totals against the source data before publishing numerical conclusions.
 
-This repository presents a portfolio project intended to demonstrate a clear problem, a traceable implementation, and evidence-backed outcomes. Reviewers should be able to find the relevant files and understand which results are verified.
+## Results and Metrics
+The report's internal data model and the Word brief could not be independently recalculated from the repository files available for this review. Therefore, booking counts, cancellation rates, ratings, and revenue totals are not claimed here. Add the actual refreshed KPI values after validating the source and measures.
 
-## 🎯 Objectives
+## Technology Stack
+- SQL concepts for relational analysis
+- Microsoft Power BI Desktop for interactive reporting
 
-- Make the purpose and contents of the repository clear.
-- Highlight the real implementation and tools used.
-- Preserve verifiable metrics and distinguish saved outputs from independent reproduction.
-- Make navigation and reproduction straightforward for reviewers.
+## Repository Structure
+```text
+ola-sample-project/
+├── Database Ola.docx
+├── ola dashboard.pbix
+└── README.md
+```
 
-## ✨ Features
-
-1. Inspect the repository data and source files.\n2. Review the existing notebook/script workflow.\n3. Reproduce the documented calculations or application behavior.\n4. Validate numerical claims against outputs and record any limitations.
-
-## 📂 Dataset
-
-Dataset details and numerical metrics are documented only where the existing repository files provide evidence. See the source files and notebook outputs for the precise schema and data provenance.
-
-## 🛠️ Tech Stack
-
-### Tools
-
-- SQL concepts described in the project brief
-- Microsoft Power BI Desktop
-
-## 🔄 Project Workflow
-
-1. Inspect the repository data and source files.\n2. Review the existing notebook/script workflow.\n3. Reproduce the documented calculations or application behavior.\n4. Validate numerical claims against outputs and record any limitations.
-
-## 🗂️ Repository Structure
-
-The repository root contains the project files. Browse the repository tree for the actual file and folder names; no additional paths are assumed here.
-
-## ⚙️ Installation
-
-### Prerequisites\n\nUse the runtime and dependencies required by the actual source files. Check the repository for a requirements or environment file before installing packages.\n\n### Setup\n\n\`\`\`bash\ngit clone https://github.com/sahil2003-ai/${repo}.git\ncd ${repo}\n\`\`\`
-
-## ▶️ Usage
-
-### How to review and reproduce
-
-1. Read `Database Ola.docx` and extract the actual business questions, tables, fields, and KPI definitions.
+## Run the Project
+1. Clone or download the repository.
 2. Open `ola dashboard.pbix` in Power BI Desktop.
-3. Confirm the source connection, refresh state, model schema, and reporting period.
-4. Check how bookings, completed rides, cancellations, ratings, and revenue are defined.
-5. Validate the dashboard totals against the underlying source data.
-6. Capture dashboard screenshots and add a table of the resulting KPIs.
+3. Reconnect the data source if prompted and refresh the model.
+4. Check filters and KPI formulas against the project brief and source data.
 
-## 📊 Results and Insights
+## Limitations and Next Steps
+- Document dataset provenance, schema, reporting period, and currency.
+- Distinguish all bookings from completed and cancelled bookings.
+- Add a validated KPI summary and genuine dashboard screenshots.
+- Include SQL scripts and source data where sharing is permitted.
+- Treat cancellation patterns as descriptive rather than causal.
 
-### Verified results status
+## Skills Demonstrated
+Business question framing, SQL analysis concepts, Power BI reporting, operational KPI interpretation, and results validation.
 
-The visible repository inventory contains a Word brief and PBIX file, but no standalone dataset or SQL script. The connector review did not expose the PBIX's internal model or the brief's full content in a form that allowed independent recalculation. Therefore, this README intentionally omits booking counts, cancellation rates, customer ratings, and revenue totals instead of guessing them.
-
-## 🖼️ Screenshots
-
-Use only screenshots or visual assets that are actually stored in this repository. Verify paths and captions before adding image links.
-
-## 🧩 Challenges and Solutions
-
-| Challenge | Approach |
-|---|---|
-| Recruiters need fast context | Use a concise overview, clear file map, and direct project links. |
-| Metrics can be overstated | Preserve evidence and validation caveats beside each reported result. |
-| Reproduction can be unclear | Document setup steps, inputs, entry points, and dependencies. |
-
-## ⚠️ Limitations
-
-### Limitations
-
-- Dataset provenance, schema, currency, and reporting period need explicit documentation.
-- Confirm that KPI definitions distinguish all bookings from completed bookings and cancelled bookings.
-- Cancellation patterns are descriptive and do not by themselves establish the cause of cancellations.
-
-## 🚀 Future Improvements
-
-### Recommended additions
-
-- [ ] Add the data dictionary and dataset source/license.
-- [ ] Add SQL scripts used for the analysis, if applicable.
-- [ ] Export a verified KPI summary.
-- [ ] Add real dashboard screenshots and explain key findings.
-
-## 📚 What I Learned
-
-- Organizing project documentation for technical and nontechnical readers.
-- Linking implementation details to evidence-backed results.
-- Explaining limitations and next steps clearly.
-
-## 👤 Author
-
-**Sahil Gaikwad**
-
-- GitHub: [sahil2003-ai](https://github.com/sahil2003-ai)
-- LinkedIn: [Sahil Gaikwad](https://www.linkedin.com/in/sahil-gaikwad-a76b7224a/)
-
-## 📄 License
-
-No verified license statement was found in the README. Check the repository's LICENSE file and the source dataset's reuse terms before redistribution.
+## Author
+**Sahil Gaikwad** · [GitHub](https://github.com/sahil2003-ai) · [LinkedIn](https://www.linkedin.com/in/sahil-gaikwad-a76b7224a/)
