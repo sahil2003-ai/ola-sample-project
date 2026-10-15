@@ -1,52 +1,28 @@
 # Ola Ride Bookings: SQL Analysis and Power BI Dashboard
 
-A ride-booking analytics project that uses SQL queries and Power BI visuals to explore booking outcomes, vehicle performance, ratings, cancellations, and revenue.
+A ride-booking analytics project covering booking outcomes, vehicle types, cancellations, ratings, and revenue.
 
-## Business Questions
+## Step-by-step workflow
 
-### SQL Analysis
-- Retrieve successful bookings.
-- Calculate average ride distance by vehicle type.
-- Count customer-cancelled rides.
-- Identify the five customers with the highest booking counts.
-- Examine driver cancellations associated with personal or vehicle-related issues.
-- Find maximum and minimum driver ratings for Prime Sedan bookings.
-- Retrieve rides paid for using UPI.
-- Calculate average customer ratings by vehicle type.
-- Calculate booking value for successfully completed rides.
-- List incomplete rides and their recorded reasons.
+1. **Review the project brief** — read `Database Ola.docx` and identify the expected questions, table names, and fields.
+2. **Inspect the data model** — verify booking IDs, status, vehicle type, distance, payment method, ratings, and cancellation-reason fields.
+3. **Prepare the database** — load the source data into the SQL environment expected by your queries.
+4. **Run SQL analysis** — answer questions on successful bookings, average distance, customer/driver cancellations, customer rankings, ratings, UPI payments, booking value, and incomplete rides.
+5. **Validate the queries** — check nulls, duplicate joins, status definitions, and whether booking value includes only completed rides.
+6. **Open the dashboard** — open `ola dashboard.pbix` in Power BI Desktop and confirm the data connection.
+7. **Review visuals** — inspect ride volume, booking status, vehicle distance, ratings, cancellation reasons, payment methods, customer value, and daily patterns.
+8. **Summarize findings** — report only verified trends and connect each one to a possible operational action.
 
-### Power BI Dashboard
-The planned dashboard covers:
-- Ride volume over time
-- Booking-status breakdown
-- Top vehicle types by ride distance
-- Customer ratings by vehicle type
-- Cancellation reasons
-- Revenue by payment method
-- Top customers by booking value
-- Daily ride-distance distribution
-- Driver-rating distribution
-- Customer versus driver ratings
+## Files
+- `Database Ola.docx` — project brief
+- `ola dashboard.pbix` — Power BI report
+- `README.md` — project guide
 
-## Tools
-- SQL for filtering, grouping, aggregating, and answering business questions
-- Power BI for KPI reporting and visual analysis
+## Skills
+SQL, operational analytics, KPI reporting, cancellation analysis, customer and driver ratings, Power BI.
 
-## How to Review
-1. Inspect the SQL file and identify the required table and column names.
-2. Load the dataset into the database expected by the SQL script.
-3. Run each query and compare its output with the question it answers.
-4. Open the Power BI report and verify the measures and filters.
+## Screenshots
+No image files were found in the repository root. Add screenshots in `images/` and embed them here.
 
-## Skills Demonstrated
-SQL querying, operational analytics, cancellation analysis, customer and driver ratings, revenue reporting, and dashboard design.
-
-## Recommended Enhancements
-- Document the dataset source, schema, and SQL dialect.
-- Add screenshots of the completed dashboard.
-- Explain metric definitions, especially booking value and cancellation categories.
-- Add a short section with verified findings rather than unsupported conclusions.
-- Include setup instructions for the database and Power BI data source.
-
-> Findings depend on the supplied dataset and definitions; no numerical results are claimed in this README.
+## Next improvements
+Document the source data, SQL dialect, metric definitions, and verified dashboard insights.
