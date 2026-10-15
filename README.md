@@ -2,6 +2,8 @@
 
 A ride-booking analytics portfolio project documenting operational questions around booking outcomes, vehicle types, cancellations, ratings, payment methods, and revenue.
 
+![Status](https://img.shields.io/badge/Status-Documented-yellow)
+
 ## 📌 Table of Contents
 
 - [Overview](#-overview)
@@ -29,22 +31,18 @@ A ride-booking analytics portfolio project documenting operational questions aro
 
 ## 🎯 Problem Statement
 
-The project frames an analytical or engineering question using the data, code, and outputs available in this repository. Findings should be interpreted according to the documented dataset, methodology, and limitations.
+This repository presents a portfolio project intended to demonstrate a clear problem, a traceable implementation, and evidence-backed outcomes. Reviewers should be able to find the relevant files and understand which results are verified.
 
 ## 🎯 Objectives
 
-- Understand the data and project question.
-- Document the implemented analytical or engineering workflow.
-- Report measurable results only where supported by repository evidence.
-- Make the work reproducible for reviewers.
+- Make the purpose and contents of the repository clear.
+- Highlight the real implementation and tools used.
+- Preserve verifiable metrics and distinguish saved outputs from independent reproduction.
+- Make navigation and reproduction straightforward for reviewers.
 
 ## ✨ Features
 
-The features below are limited to the work described in the existing repository documentation.
-
-### Verified results status
-
-The visible repository inventory contains a Word brief and PBIX file, but no standalone dataset or SQL script. The connector review did not expose the PBIX's internal model or the brief's full content in a form that allowed independent recalculation. Therefore, this README intentionally omits booking counts, cancellation rates, customer ratings, and revenue totals instead of guessing them.
+1. Inspect the repository data and source files.\n2. Review the existing notebook/script workflow.\n3. Reproduce the documented calculations or application behavior.\n4. Validate numerical claims against outputs and record any limitations.
 
 ## 📂 Dataset
 
@@ -86,38 +84,17 @@ The repository root contains the project files. Browse the repository tree for t
 
 The visible repository inventory contains a Word brief and PBIX file, but no standalone dataset or SQL script. The connector review did not expose the PBIX's internal model or the brief's full content in a form that allowed independent recalculation. Therefore, this README intentionally omits booking counts, cancellation rates, customer ratings, and revenue totals instead of guessing them.
 
-## Additional Project Documentation\n\n### Repository files
+## 🖼️ Screenshots
 
-| File | Purpose |
-|---|---|
-| `Database Ola.docx` | Project brief / documented database questions |
-| `ola dashboard.pbix` | Power BI report |
-| `README.md` | Project documentation |
-
-### Analysis goals
-
-- Review booking outcomes and cancellation patterns.
-- Compare available vehicle types, ratings, and payment methods.
-- Inspect the revenue and distance measures available in the report.
-- Translate validated metrics into operational questions.
-
-These are intended analysis areas based on the project files, not claims that a particular numerical result has been verified.
-
-### Author
-
-Sahil Gaikwad · [GitHub](https://github.com/sahil2003-ai) · [LinkedIn](https://www.linkedin.com/in/sahil-gaikwad-a76b7224a/)\n## 🖼️ Screenshots
-
-No verified screenshot path was identified in the existing README. Add real screenshots from the repository only when the corresponding image files exist.
+Use only screenshots or visual assets that are actually stored in this repository. Verify paths and captions before adding image links.
 
 ## 🧩 Challenges and Solutions
 
-### Validation and reproducibility
-
 | Challenge | Approach |
 |---|---|
-| Metrics can be mistaken for independently verified results | Preserve the evidence status stated in the existing documentation. |
-| Data sources, filters, or execution environments may differ | Confirm source paths, schema, dependencies, and calculation definitions when rerunning. |
-| Screenshots and dashboard outputs may not be independently accessible | Only link to real files present in the repository. |
+| Recruiters need fast context | Use a concise overview, clear file map, and direct project links. |
+| Metrics can be overstated | Preserve evidence and validation caveats beside each reported result. |
+| Reproduction can be unclear | Document setup steps, inputs, entry points, and dependencies. |
 
 ## ⚠️ Limitations
 
@@ -138,9 +115,9 @@ No verified screenshot path was identified in the existing README. Add real scre
 
 ## 📚 What I Learned
 
-### Skills demonstrated
-
-Business-question framing, ride-booking operational analysis, SQL concepts, KPI verification, and Power BI reporting.
+- Organizing project documentation for technical and nontechnical readers.
+- Linking implementation details to evidence-backed results.
+- Explaining limitations and next steps clearly.
 
 ## 👤 Author
 
